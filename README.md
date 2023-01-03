@@ -8,7 +8,7 @@ https://github.com/lemmingDev/ESP32-BLE-Gamepad
 
 https://github.com/thomasfredericks/Bounce2
 
-ESP32_Guitar.ino is an Arduino IDE project file and requires 2 packagese from the Library Manager:
+ESP32_Guitar.ino is an Arduino IDE project file and requires 2 packages from the Library Manager:
   -Bounce2
   -ESP32-BLE-Gamepad
   

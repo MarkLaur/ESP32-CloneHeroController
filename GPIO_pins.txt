@@ -1,0 +1,99 @@
+this is a list of gpio pins used for GH guitar
+missing gpio pins don't exist
+
+source:
+https://randomnerdtutorials.com/esp32-pinout-reference-gpios/
+
+these are used for board functions
+	GPIO 0
+	GPIO 1
+	GPIO 2
+	GPIO 3
+
+safe
+	GPIO 4		start
+
+outputs pwm during boot
+	GPIO 5  
+
+these are used for board functions
+	GPIO 6 
+	GPIO 7  
+	GPIO 8 	
+	GPIO 9  
+	GPIO 10 
+	GPIO 11 
+	GPIO 12 
+
+safe
+	GPIO 13		select
+
+outputs pwm during boot
+	GPIO 14
+	GPIO 15
+
+
+the rest are safe
+
+
+	GPIO 16		dpad up
+	GPIO 17		dpad down
+	GPIO 18		dpad left
+	GPIO 19		dpad right
+
+	GPIO 21		green		x
+	GPIO 22		red			o
+	GPIO 23		yellow		square
+
+	GPIO 25		blue		triangle
+	GPIO 26		orange		L1
+	GPIO 27		ps button
+
+	GPIO 32		strum down
+	GPIO 33		strum up
+
+input only with no internal pull up or down resistors
+	GPIO 34		Whammy
+	GPIO 35
+	GPIO 36
+
+input only with no internal pull up or down resistors
+	GPIO 39
+
+
+
+
+PS3 GH3 wireless Les Paul key IDs
+
+existing things in property window
+
+	13 Buttons		only 12345 9 10 13 are used
+	XYZ Axes		only Z is used
+	Z Rotation		would probably be tilt if it worked
+	POV Hat
+
+
+Actions and corresponding IDs
+
+	green			Button 2
+	red				Button 3
+	yellow			Button 1
+	blue			Button 4
+	orange			Button 5
+
+	strum up		POV up
+	strum down		POV down
+
+	dpad up			POV up
+	dpad down		POV down
+	dpad left		POV left
+	dpad right		POV right
+
+	ps button		Button 13
+	start 			Button 10
+	select			Button 9
+
+	whammy			Z Axis
+	tilt			non-functional
+
+

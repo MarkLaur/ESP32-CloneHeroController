@@ -12,8 +12,8 @@ https://github.com/thomasfredericks/Bounce2
 
 # Setup
 ESP32_Guitar.ino is an Arduino IDE project file and requires 2 packages from the Library Manager:
-  -Bounce2
-  -ESP32-BLE-Gamepad
+  - Bounce2
+  - ESP32-BLE-Gamepad
   
 Arduino IDE requires some additional setup to make it work with the ESP32 and it's devtools. I've forgotten the steps for this.
    
